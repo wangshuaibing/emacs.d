@@ -32,9 +32,7 @@
 
 ;;; Also use Melpa for most packages
 (add-to-list 'package-archives
-             `("melpa" . ,(if sanityinc/no-ssl
-                              "http://melpa.org/packages/"
-                            "https://melpa.org/packages/")))
+             `("melpa" . "https://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/"))
 
 ;; NOTE: In case of MELPA problems, the official mirror URL is
 ;; https://www.mirrorservice.org/sites/stable.melpa.org/packages/
